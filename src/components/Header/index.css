@@ -1,0 +1,18 @@
+.header{
+  width: 50%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-left: 50%;
+  height: 175px;
+  position: absolute;
+  background: black;
+}
+.header-slogan{
+  font-size: 28px;
+  padding: 5%;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 4%;
+  font-family: 'Handlee', cursive;
+  color: white;
+}
