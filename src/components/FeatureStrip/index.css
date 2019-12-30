@@ -1,0 +1,19 @@
+.feature-strip{
+  margin-top: 15%;
+  width: 100%;
+  display: flex;
+}
+.feature{
+  padding: 1%;
+  margin: 1%;
+  width: 30%;
+  align-items: center;
+  border: 1px solid black;
+  text-align: center;
+  height: 150px;
+  transition: .30s ease-in-out;
+}
+
+.feature:hover{
+  transform: scale(1.03);
+}

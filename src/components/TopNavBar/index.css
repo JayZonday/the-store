@@ -1,9 +1,22 @@
 .main-nav{
   width: 100%;
+  padding-bottom: 1%;
 }
 .nav-btn{
   width: 20%;
   height: 45px;
   background: white !important;
   border: none;
+  border-bottom: 6px solid transparent;
+  transition: .35s ease-in-out;
+  font-weight: 600;
+  border-radius: 2%;
+  font-size: 13.5px;
+  color: #aaa;
+}
+
+.nav-btn:hover{
+  color: black;
+  border-bottom: 6px solid black;
+  background: #adbce6 !important;
 }

@@ -1,0 +1,13 @@
+.footer{
+  position: absolute;
+  background: black;
+  height: 120px;
+  width: 100%;
+  bottom: 0;
+}
+.footer-desc{
+  color: white;
+}
+.company-mission{
+  font-size: 10px;
+}
