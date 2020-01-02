@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Open from './open.jpg'
+import Product from './product.jpg'
+import Shipping from './shipping.jpg'
 import './index.css';
 
 
@@ -10,13 +13,16 @@ class FeatureStrip extends Component {
     return (
       <div className='feature-strip'>
         <div className='feature' id='product'>
-          Hottest Product!
+          <span className='feature-text'>Hottest Product!</span>
+          <img className='feature-img' src={Product}/>
         </div>
         <div className='feature' id='news'>
-          Latest News!
+          <span className='feature-text'>Latest News!</span>
+          <img className='feature-img' src={Open}/>
         </div>
         <div className='feature' id='ad'>
-          Free Shipping w/ Purchases over $42.00!
+          <span className='feature-text'>Free Shipping w/ Purchases over $42.00!</span>
+          <img className='feature-img' src={Shipping}/>
         </div>
       </div>
     );

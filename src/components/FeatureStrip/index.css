@@ -4,16 +4,27 @@
   display: flex;
 }
 .feature{
-  padding: 1%;
-  margin: 1%;
+  margin: 3.5% 0 0 2%;
   width: 30%;
   align-items: center;
   border: 1px solid black;
   text-align: center;
-  height: 150px;
-  transition: .30s ease-in-out;
+  height: 225px;
+  transition: .20s ease-in-out;
 }
 
-.feature:hover{
+.feature:hover , .fearture:hover .feature-text{
   transform: scale(1.03);
+  background: #adbce6;
+  color: white;
+}
+
+
+.feature-img{
+  height: 88%;
+  width: 100%;
+}
+.feature-text{
+  font-size: 1.5vw;
+  font-family: 'Handlee', cursive;
 }
